@@ -22,8 +22,8 @@ public class LinkedListOperationsStrategy implements ListOperationsStrategy {
 
     @Override
     public OurList getFilledList(int length) {
-        OurList list = new OurLinkedList();
 
+        OurList list = new OurLinkedList();
         for (int i = 0; i < length; i++) {
             list.append(object);
         }

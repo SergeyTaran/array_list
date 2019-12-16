@@ -27,7 +27,7 @@ public class Application {
         System.out.println(arrayTester.testAppendPerformance(10000000));
         System.out.println(arrayTester.testGetPerformance(1000000,10000000));
         System.out.println(linkedTester.testAppendPerformance(10000000));
-        System.out.println(linkedTester.testGetPerformance(10000000,10000000));
+        System.out.println(linkedTester.testGetPerformance(10000,10000));
 
 
     }
