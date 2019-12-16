@@ -14,7 +14,7 @@ public class LinkedListOperationsStrategy implements ListOperationsStrategy {
     }
 
     @Override
-    public void get(int nTimes, OurList list) {
+    public void get(int nTimes, OurList list)    {
 
     }
 }
