@@ -24,10 +24,11 @@ public class Application {
         ListPerformanceTester arrayTester = new ListPerformanceTester(arrayStrategy);
         ListPerformanceTester linkedTester = new ListPerformanceTester(linkedStrategy);
 
-        arrayTester.testAppendPerformance(1000);
-        arrayTester.testGetPerformance(1000,100);
-        linkedTester.testAppendPerformance(1000);
-        linkedTester.testGetPerformance(1000,100);
+        System.out.println(arrayTester.testAppendPerformance(10000000));
+        System.out.println(arrayTester.testGetPerformance(1000000,10000000));
+        System.out.println(linkedTester.testAppendPerformance(10000000));
+        System.out.println(linkedTester.testGetPerformance(10000000,10000000));
+
 
     }
 
